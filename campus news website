@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Campus News</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>📢 Campus News</h1>
+        <p>Latest Updates From Our College</p>
+    </header>
+
+    <!-- Breaking News -->
+    <div class="breaking-news">
+        🔥 Breaking News: Annual Tech Fest starts next week!
+    </div>
+
+    <main>
+
+        <section class="news-section">
+
+            <h2>Latest Events</h2>
+
+            <article class="card">
+                <h3>🔬 Science Exhibition</h3>
+                <p>
+                    Students displayed innovative science projects
+                    and won several awards.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>🎭 Cultural Fest</h3>
+                <p>
+                    Dance, music, and drama performances entertained
+                    the audience.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>💻 Coding Competition</h3>
+                <p>
+                    Students participated in coding challenges and
+                    demonstrated problem-solving skills.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Sidebar -->
+        <aside>
+            <h2>Upcoming Activities</h2>
+            <ul>
+                <li>🏆 Sports Meet</li>
+                <li>💻 Hackathon</li>
+                <li>🤖 AI Seminar</li>
+                <li>📚 Workshop</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <h2>Campus Highlights</h2>
+
+        <div class="gallery-box">
+            📸 Science Fair
+        </div>
+
+        <div class="gallery-box">
+            📸 Cultural Fest
+        </div>
+
+        <div class="gallery-box">
+            📸 Sports Meet
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Campus News | Designed by Mounika</p>
+    </footer>
+
+</body>
+</html>
+                
