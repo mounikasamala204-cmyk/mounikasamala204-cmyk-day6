@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎬 My Favourite Movie</h1>
+
+        <p>My favourite movie is <b>Hi Nanna</b>.</p>
+
+        <hr>
+
+        <h2>Characters in the Movie</h2>
+        <ol>
+            <li>Nani</li>
+            <li>Mrunal Thakur</li>
+            <li>Baby Kiara Khanna</li>
+        </ol>
+
+        <hr>
+
+        <h2>Movie Content</h2>
+        <ul>
+            <li>Love story between the hero and heroine.</li>
+            <li>Emotional bond between daughter and mother.</li>
+        </ul>
+
+        <hr>
+
+        <h3>Movie Streaming Website</h3>
+        <a href="https://www.primevideo.com" target="_blank">
+            Watch on Prime Video
+        </a>
+    </div>
+
+</body>
+</html>
