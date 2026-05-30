@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1><i><u>STUDENT MARKS</u></i></h1>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+                <th>Branch</th>
+            </tr>
+
+            <tr>
+                <td>Mokshitha</td>
+                <td>95</td>
+                <td>ECE</td>
+            </tr>
+
+            <tr>
+                <td>Shivani</td>
+                <td>90</td>
+                <td>ECE</td>
+            </tr>
+
+            <tr>
+                <td>Sreeja</td>
+                <td>80</td>
+                <td>CSE</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <img src="https://i0.wp.com/nancyspref.com/wp-content/uploads/2020/08/actually1.jpg?resize=791%2C1024&ssl=1"
+             alt="Student"
+             width="200">
+    </div>
+
+</body>
+</html>
