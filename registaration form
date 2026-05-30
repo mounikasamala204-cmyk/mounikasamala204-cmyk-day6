@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Registration Form</h1>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Write your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email">
+
+            <label for="phone">Mobile Number:</label>
+            <input type="tel" id="phone" placeholder="Enter mobile number">
+
+            <label>Caste:</label>
+            <div class="radio-group">
+                <input type="radio" id="SC" name="caste">
+                <label for="SC">SC/ST</label>
+
+                <input type="radio" id="BC" name="caste">
+                <label for="BC">BC</label>
+
+                <input type="radio" id="OC" name="caste">
+                <label for="OC">OC</label>
+            </div>
+
+            <label for="department">Department:</label>
+            <select id="department">
+                <option>Select Department</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>Mechanical</option>
+            </select>
+
+            <label for="signature">Signature:</label>
+            <textarea id="signature" rows="4" placeholder="Your signature"></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>
